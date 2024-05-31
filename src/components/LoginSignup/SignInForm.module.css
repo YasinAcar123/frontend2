@@ -1,0 +1,39 @@
+.signinContainer{
+    width: 500px;
+    height: 300px;
+    background-color:rgb(76, 76, 221);
+    border-radius: 1rem;
+    margin-left: 30vw;
+    margin-top: 10vh;
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+
+      font-family: 'Nunito', sans-serif;
+      font-size: 22px;
+      padding: 0.25rem;
+      border-radius: 0.5rem;
+      margin: 1rem;
+      width: 400px;
+}
+
+.button{
+    margin: 1rem;
+    background-color: #fff;
+    width: 90px;
+    height: 50px;
+}
+
+.signup{
+    color: white;
+    text-decoration:dashed;
+    margin: 1rem;
+}
+
+

@@ -1,0 +1,44 @@
+.navbar{
+  display:flex;
+  align-content: center;
+  justify-content: flex-start;
+  background-color: #235562;
+}
+.navbar a{
+  text-decoration: none;
+  margin-left: 70px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+img{
+  padding: 15px;
+  height: 40px;
+  margin-left: 5rem;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  margin-bottom: 60px; /* Footer yüksekliğini burada ayarlayabilirsiniz */
+}
+
+.car-card {
+  background: rgb(248, 248, 250);
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.car-card h5 {
+  margin-bottom: 10px;
+}
+

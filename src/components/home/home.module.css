@@ -1,0 +1,29 @@
+.home {
+    padding: 50px 0;
+    background-image: url('https://www.followmeaway.com/wp-content/uploads/2019/09/Switzerland-Road-Trip-Roads-1000x533.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .searchCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .authCol {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .authButton {
+    margin-top: 20px;
+  }
+  
+  .searchBar {
+    margin-bottom: 20px;
+  }
+  
+
+  

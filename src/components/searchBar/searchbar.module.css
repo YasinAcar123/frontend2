@@ -1,0 +1,41 @@
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 800px;
+    margin-left: 300px;
+   /* background-color: rgba(255, 255, 0, 0.5); /* Yarı saydam sarı arka plan */
+    padding: 20px; /* Çerçeve içi boşluk */
+}
+
+.searchInputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dateTimeInput {
+    margin-right: 10px;
+}
+
+.searchButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchButton:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}

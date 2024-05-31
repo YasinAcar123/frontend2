@@ -1,0 +1,34 @@
+.container {
+    padding-top: 50px;
+  }
+  
+  .imageGallery {
+    height: 400px; /* Resim galerisi yüksekliği */
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .productInfo {
+    margin-top: 50px;
+  }
+  
+  .mt4 {
+    margin-top: 1rem;
+  }
+  
+  .textMuted {
+    color: #6c757d;
+  }
+  
+  .dFlex {
+    display: flex;
+  }
+  
+  .me2 {
+    margin-right: 0.5rem;
+  }
+  
+  .btnPrimary {
+    margin-top: 20px;
+  }
+  

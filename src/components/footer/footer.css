@@ -1,0 +1,60 @@
+/* Sayfa içeriği için temel stil */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* İçerik alanı */
+.content {
+  flex: 1;
+  padding-bottom: 60px; /* Footer yüksekliğini burada ayarlayabilirsiniz */
+}
+
+/* Footer stil */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0; /* Padding değerlerini azalttık */
+  text-align: center;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h5 {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footercontainer {
+    flex-direction: column;
+  }
+}
+
+.footer ul {
+  width: 200px; /* İstediğiniz genişliği buradan ayarlayabilirsiniz */
+}
+
+.footer h5 {
+  width: 200px; /* İstediğiniz genişliği buradan ayarlayabilirsiniz */
+}
